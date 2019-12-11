@@ -1,0 +1,10 @@
+File upload
+https://www.codexworld.com/upload-store-image-file-in-database-using-php-mysql/
+https://codewithawa.com/posts/image-upload-using-php-and-mysql-database
+https://github.com/josefrichter/resize/blob/master/public/preprocess.js
+https://www.javascripture.com/FileReader
+https://stackoverflow.com/questions/14672746/how-to-compress-an-image-via-javascript-in-the-browser/14672943#14672943
+https://makitweb.com/how-to-compress-image-size-while-uploading-with-php/
+https://www.geeksforgeeks.org/how-to-save-an-html-5-canvas-as-an-image-on-the-server/
+Dom to PDF
+https://makitweb.com/generate-pdf-from-html-with-dompdf-in-php/

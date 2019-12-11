@@ -1,0 +1,577 @@
+:root {
+    --biscuit: #ECEADB;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('Ubuntu-R.ttf');
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-size: 2em;
+    /* line-height: 18px; */
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    /* line-height: 23px; */
+}
+
+#header {
+    background-color: var(--main-col);
+    color: var(--bg-col);
+    /* height: 50px; */
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+}
+
+.padding-10{
+    padding-right:10px;
+    padding-left:10px;
+}
+
+#footer{
+    background-color: var(--main-col);
+    color: var(--bg-col);
+}
+
+.navbar {
+    height: 150px !important;
+    /* width: 100vw; */
+}
+
+.navbar-brand {
+    margin: 0%;
+    text-align: center;
+    width: 90vw;
+}
+
+.navbar-toggle {
+    position: absolute;
+    border-color: white;
+    top: 0;
+    left: 20px;
+    z-index: 3;
+}
+
+.btn-lg {
+    font-size: 24px;
+}
+
+
+.dropdown-item {
+    font-size: 24px;
+}
+
+.form-control {
+    font-size: 24px;
+}
+
+.modal-backdrop {
+    z-index: -1 !important;
+}
+
+.btn-circle.btn-xl {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 10px 10px;
+    border-radius: 40px !important;
+    font-size: 20px;
+    line-height: 1.33;
+    text-align: center;
+    z-index: 10;
+}
+
+#backButton {
+    position: fixed;
+    top: 170px;
+    right: 2%;
+}
+
+#fontUp {
+    position: fixed;
+    top: 260px;
+    right: 2%;
+}
+
+#fontDown {
+    position: fixed;
+    top: 350px;
+    right: 2%;
+}
+
+#content {
+    width: 100vw;
+    text-align: center;
+}
+
+/* .form_group{
+    padding: 10px 20vw;
+} */
+
+.btn {
+    margin: 2px !important;
+}
+
+#viewMessage {
+    margin-left: 50%;
+    left: -200px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+#createMsg {
+    width: 100px;
+    height: 100px;
+}
+
+#content{
+    margin: 5px;
+    padding: 3px;
+}
+
+#displayIt {
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    padding: 3px;
+}
+
+#messageCard {
+    margin: 10px;
+    /* width: 70%; */
+    /* margin-left: 50%; */
+    /* right: 35%; */
+    background-color: var(--biscuit);
+}
+
+#messageCard:hover {
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.jumbotron {
+    padding: 0px;
+    /* width: 105vw; */
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container {
+    width: 100vw;
+}
+
+#vmContent{
+    padding: 20px;
+}
+
+#viewMessageCard{
+    background-color: var(--biscuit);
+    border-radius: 0;
+}
+
+#viewMessageHeader{
+    border-bottom-style: none;
+    background-color: var(--biscuit);
+}
+
+#messageCardHeader{
+    border-bottom-style: none;
+    background-color: var(--biscuit);
+    text-align: center;
+    font-size:35px;
+    text-transform: uppercase;
+}
+
+#messageCardBody{
+    text-align: center;
+}
+
+#messageCardFooter{
+    border-style: none;
+    background-color: var(--biscuit);
+    text-align: center;
+}
+
+#imageDiv{
+    text-align: center;
+}
+
+#vmImage{
+    text-align: center;
+}
+
+#messageCard{
+    text-align: center;
+}
+
+#messagesDivStaff{
+    max-width: 120rem;
+}
+
+@media (max-width:769px){
+
+    #controlDiv {
+        width: 100vw;
+    }
+
+    #loginButton{
+        display: none;
+    }
+
+    .btn-circle.btn-xl {
+        width: 50px !important;
+        height: 50px !important;
+        padding: 10px 16px;
+        border-radius: 25px !important;
+        font-size: 18px;
+        line-height: 1.33;
+    }
+
+    #messageCardHeader{
+        font-size:40px;
+    }
+
+
+    #fontUp {
+        position: fixed;
+        top: 40%;
+        right: 2%;
+        z-index: 10;
+    }
+
+    #fontDown {
+        position: fixed;
+        top: 50%;
+        right: 2%;
+        z-index: 10;
+    }
+
+    #backButton {
+        position: fixed;
+        top: 30%;
+        right: 2%;
+        z-index: 10;
+    }
+
+    #vmImage{
+        width: 90%;
+        justify-content: center;
+        height: auto;
+    }
+
+    #vmImage > img {
+        width: 100%;
+        height: auto;
+    }
+
+    #viewMessageCard{
+        width: 100%;
+    }
+
+    #messagesDiv{
+        width: 90vw;
+    }
+
+    #logoDiv{
+        width: 100%;
+        justify-content: center;
+        padding: 0px 20%;
+    }
+    #vmContent{
+        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    #vmDescription{
+        padding: 20px;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    #vmHeader{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;    
+        text-align: center;
+    }
+
+    .btn-xl{
+        font-size: 24px;
+    }
+
+    #imageDiv{
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /* max-width: 80vw; */
+    }
+
+    #vmImage{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* max-width: 80vw; */
+        width:100%;
+    }
+
+    #vmImage > img{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:770px){
+    body{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+        margin: 0px;
+    }
+
+    #messagesDiv{
+        width: 100%;
+        padding: 10px 20vw;
+    }
+
+    #viewMessagesDiv{
+        width: 100%;
+    }
+
+    #header{
+        grid-area: header;
+        text-align: center;
+        position: sticky;
+        top: 0px;
+        padding: 0px;
+    }
+
+    #header > a {
+        text-align: center;
+    }
+
+    #filterButton{
+        margin: 0px;
+    }
+
+    #controlDiv{
+        padding: 0px 20vw;
+    }
+
+    #footer{
+        grid-area: footer;
+    }
+
+    #fontLabel{
+        font-size: 40;
+        margin: 0px;
+    }
+
+    #filterLabel{
+        font-size: 40;
+        margin: 0px;
+    }
+
+    /* .btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 1.33;
+    } */
+/* 
+    .jumbotron {
+        padding: 0px;
+        width: 100vw;
+        min-height: 100vh;
+    } */
+
+    #fontBtnGroup{
+        width: 100%;
+    }
+
+    #fontBtnGroup{
+        width: 100%;
+    }
+
+    #dropdownMenuButton{
+        margin: 2px 2px 2px 14px;
+    }
+
+    #fontUp{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #fontDown{
+        width: 100px;
+        height: 100px;
+    }
+    /*
+    #fontDown{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #speedUp{
+        width: 100px;
+        height: 100px;
+    } */
+
+    #viewMessageCard{
+        width: 100%;
+    }
+
+    #messagesDiv{
+        width: 70vw;
+    }
+
+    #viewMessagesDiv{
+        width: 70vw;
+    }
+
+    #timestamp{
+        font-size: 16px;
+    }
+
+    #vmContent{
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    #vmDescription{
+        padding: 20px;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    #vmHeader{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        /* identical to box height */
+    
+        text-align: center;
+    }
+
+    .btn-xl{
+        font-size: 32px;
+    }
+
+    #imageDiv{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 0px;
+        /* max-width: 80vw; */
+        
+    }
+
+    #vmImage{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 70%;
+        margin-left: 15%;
+        
+    }
+
+    #imageDiv > img{
+        max-height: 95%;
+        max-width: 95%;
+        width: auto;
+        height: auto; 
+        vertical-align: middle;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+        /* margin-right: 10px; */
+        /* margin-top: 50%; */
+    }
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5px auto; /* 15% from the top and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+  /* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    }
+
+  /* Close button on hover */
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+  /* Add Zoom Animation */
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)}
+        to {-webkit-transform: scale(1)}
+    }
+    
+    @keyframes animatezoom {
+        from {transform: scale(0)}
+        to {transform: scale(1)}
+    }

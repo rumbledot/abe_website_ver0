@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TTS Experiment</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <a href="CreateMessage.php">New Message</a>
+    <a href="Noticeboard.php">Noticeboard</a>
+
+    <textarea id="content" style="width: 300px; height: 300px;"></textarea>
+    <textarea id="displayIt"></textarea>
+    <button id="createMsg" onclick="createMsg()">Create</button>
+    <button id="tellMe" onclick="textToSpeech()">Start read</button>
+    <button id="stopMe" onclick="stopTTS()">Stop read</button>
+    <button id="fontUp" onclick="fontUp()">+</button>
+    <button id="fontDown" onclick="fontDown()">-</button>
+    <button id="speedUp" onclick="speedUp()">++</button>
+    <button id="speedDown" onclick="speedDown()">--</button>
+    <script src="index.js"></script>
+</body>
+
+</html>

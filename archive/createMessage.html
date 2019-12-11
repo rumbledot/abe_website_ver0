@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create new message</title>
+</head>
+<script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
+<body>
+    <div id="sample">
+  <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script> 
+  <script type="text/javascript">
+//<![CDATA[
+        bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+  //]]>
+  </script>
+  <h4>
+    New Message
+  </h4>
+  <textarea id="msgContent" style="width: 300px; height: 100px;">
+       HTML content default in textarea
+</textarea>
+<div id="displayIt"></div>
+<button id="takeIt" onclick="displayRichText()">Submit</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="message.js"></script>
+</body>
+</html>
