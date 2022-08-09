@@ -1,5 +1,3 @@
-# Special Olympics NZ 2019
+# Peronal Website 0.1
 
-Peggy has cloned the repository and made sure it's connecting properly.
-
-Hi guys
+First iteration of my personal website using HTML JS
